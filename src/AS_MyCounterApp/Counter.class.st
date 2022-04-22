@@ -26,12 +26,12 @@ Counter >> count: anInt [
 	count := anInt. 
 ]
 
-{ #category : #API }
+{ #category : #operations }
 Counter >> decrement [
 	count := count - 1
 ]
 
-{ #category : #API }
+{ #category : #operations }
 Counter >> increment [
 	count := count + 1
 ]
